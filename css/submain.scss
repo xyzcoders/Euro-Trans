@@ -76,10 +76,18 @@
   }
 }
 .table{
+    table-layout: fixed;
     width: 50%;
+    font-family: 'Lato', sans-serif;
     &__caption{
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        font-size: 65px;
+        font-size: 55px;
+    }
+    &__head{
+        background-color: #FF4242;
+    }
+    &__cell{
+        width: 50px;
     }
 }

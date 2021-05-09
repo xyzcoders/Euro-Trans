@@ -98,12 +98,22 @@
 }
 
 .table {
+  table-layout: fixed;
   width: 50%;
+  font-family: 'Lato', sans-serif;
 }
 
 .table__caption {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 65px;
+  font-size: 55px;
+}
+
+.table__head {
+  background-color: #FF4242;
+}
+
+.table__cell {
+  width: 50px;
 }
 /*# sourceMappingURL=submain.css.map */
