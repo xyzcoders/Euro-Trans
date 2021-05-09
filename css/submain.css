@@ -47,7 +47,7 @@
 
 .submain__heading--red::after {
   content: "";
-  background-color: #FF8383;
+  background-color: #ff8383;
   height: 7px;
   width: 200px;
   display: block;
@@ -88,6 +88,20 @@
           box-shadow: 0px 7px 37px 1px rgba(0, 0, 0, 0.25);
 }
 
+.submain__href {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  color: #ff3232;
+}
+
+.submain__href:hover {
+  color: #e67878;
+}
+
+.submain__href:visited {
+  color: #83c3ff;
+}
+
 .map__country {
   cursor: pointer;
 }
@@ -100,13 +114,13 @@
 .table {
   table-layout: fixed;
   width: 50%;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   border-collapse: collapse;
   margin-bottom: 20px;
 }
 
 .table__caption {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 55px;
   margin: 30px 0;
@@ -129,7 +143,7 @@
 
 .table__heading {
   color: white;
-  background-color: #FF4242;
+  background-color: #ff4242;
   font-size: 35px;
   padding: 20px 0;
 }
@@ -153,5 +167,9 @@
 
 .table__row:last-child {
   border-bottom: 1px solid #eeeeee;
+}
+
+.contact__infoContainer {
+  width: 300%;
 }
 /*# sourceMappingURL=submain.css.map */
