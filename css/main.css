@@ -127,6 +127,7 @@
   height: 840px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
