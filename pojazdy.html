@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Titillium+Web:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;600&family=Titillium+Web:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
     <script defer src="js/navbar.js"></script>
@@ -42,8 +42,60 @@
       </ul>
     </header>
     <main class="submain">
-        <div class="submain__separator"></div>
-        <h1 class="submain__heading submain__heading--blue">Pojazdy</h1>
+      <div class="submain__separator"></div>
+      <h1 class="submain__heading submain__heading--blue">Pojazdy</h1>
+      <section class="submain__vehicles submain__vehicles--things">
+        <div class="vehicles__card">
+          <div class="vehicles__circle"></div>
+          <img src="./imgs/ciezarowa.png" alt="" class="vehicles__vehicle" />
+          <div class="vehicles__info">
+            <h2 class="vehicles__title">
+              Mercedes Actros
+            </h2>
+            <h3 class="vehicles__subtitle">Dalekobieżny</h3>
+            <p class="vehicles__paragraph">
+              Używany do transportu towarów i towarów niebezpiecznych
+            </p>
+          </div>
+        </div>
+        <div class="vehicles__card">
+          <div class="vehicles__circle"></div>
+          <img src="./imgs/busprzepro.png" alt="" class="vehicles__vehicle" />
+          <div class="vehicles__info">
+            <h2 class="vehicles__title">
+              Mercedes Actros
+            </h2>
+            <h3 class="vehicles__subtitle">Dalekobieżny</h3>
+            <p class="vehicles__paragraph">
+                Używany głównie do przeprowadzek, również do transportu towarów na krótsze odległości.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="submain__vehicles submain__vehicles--people">
+        <div class="vehicles__card">
+          <div class="vehicles__circle"></div>
+          <img src="./imgs/autobus.png" alt="" class="vehicles__vehicle" />
+          <div class="vehicles__info">
+            <h2 class=" vehicles__title">Mercedes Tourismo</h2>
+            <p class="vehicles__paragraph">Autobus przeznaczy do transportu maksymalnie 45 osób. Najwyższej klasy bus turystyczny zapewnie wygodną podróż nawet na dłuższych dystansach. </p>
+          </div>
+        </div>
+        <div class="vehicles__card">
+          <div class="vehicles__circle"></div>
+          <img
+            src="./imgs/van.png"
+            alt=""
+            class="vehicles__vehicle vehicles__vehicle--van"
+          />
+          <div class="vehicles__info">
+            <h2 class="vehicles__title">
+              Mercedes Vito Tourer
+            </h2>
+            <p class="vehicles__paragraph">Używany do transportu maksymalnie 7 osób. Jeżeli jest mniej można zwolnić miejsce w środku dla bardziej komfortowej podróży.</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="footer__upper">
