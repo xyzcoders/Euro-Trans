@@ -50,6 +50,10 @@
       line-height: 170%;
       width: 40%;
     }
+    &--nomargin {
+      margin: 5px 0;
+      font-family: "Montserrat", sans-serif;
+    }
   }
   &__list {
     font-family: "Lato", sans-serif;
@@ -69,11 +73,11 @@
     font-family: "Lato", sans-serif;
     font-size: 30px;
     color: #ff3232;
-    &:hover{
-        color: #e67878;
+    &:hover {
+      color: #e67878;
     }
-    &:visited{
-        color: #83c3ff;
+    &:visited {
+      color: #83c3ff;
     }
   }
 }
@@ -134,7 +138,54 @@
   }
 }
 .contact {
+  font-family: "Montserrat", sans-serif;
   &__infoContainer {
     width: 300%;
+  }
+}
+.form {
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  width: 32%;
+  &__label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    margin: 15px 0;
+  }
+  &__input {
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 28px;
+    background-color: #f1f1f1;
+    caret-color: #414141;
+    width: 110%;
+    align-self: center;
+    justify-self: center;
+  }
+  &__textarea {
+    font-family: "Montserrat", sans-serif;
+    resize: none;
+  }
+  &__button{
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(90.07deg, #FF9898 -12.74%, rgba(255, 43, 43, 0) 104.16%, rgba(255, 158, 158, 0) 104.16%), #FF8383;
+    border: none;
+    border-radius: 55px;
+    color: white;
+    font-size: 30px;
+    padding: 10px 45px;
+    font-weight: 700;
+    width: max-content;
+    margin-top: 20px;
+    justify-self: center;
+    cursor: pointer;
+    transition: transform 0.05s linear;
+    &:hover{
+        transform: scale(1.05);
+    }
   }
 }

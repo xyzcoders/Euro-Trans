@@ -44,14 +44,46 @@
     <main class="submain">
       <div class="submain__separator"></div>
       <h1 class="submain__heading submain__heading--red">Kontakt</h1>
-      <p class="submain__paragraph submain__paragraph--center">
+      <p
+        class="submain__paragraph submain__paragraph--center submain__paragraph--nomargin"
+      >
         Numer telefonu:
       </p>
-      <a href="tel:+48420213769" class="submain__href" > +48 420 213 769 </a>
-      <p class="submain__paragraph submain__paragraph--center">Adres email:</p>
-      <a href="mailto:wajach@euro-trans.com.pl" class="submain__href">wajach@euro-trans.com.pl </a>
-      <form action="">
-          <label for=""></label><input type="text" name="" id=""><label for=""></label><textarea name="" id="" cols="30" rows="10"></textarea>
+      <a href="tel:+48420213769" class="submain__href"> +48 420 213 769 </a>
+      <p
+        class="submain__paragraph submain__paragraph--center submain__paragraph--nomargin"
+      >
+        Adres email:
+      </p>
+      <a href="mailto:wajach@euro-trans.com.pl" class="submain__href"
+        >wajach@euro-trans.com.pl
+      </a>
+      <p
+        class="submain__paragraph submain__paragraph--center submain__paragraph--nomargin"
+      >
+        Adres biura: <br />
+        ul. Europejska 2, Poznań 
+
+      </p>
+      <img src="./imgs/Zrzut ekranu 2021-05-09 201521.png" alt="" class="submain__photo">
+      <form action="" class="form">
+        <label for="emailInput" class="form__label">Email:</label>
+        <input
+          type="text"
+          id="emailInput"
+          name=""
+          class="form__textinput form__input"
+          placeholder="jan@kowalski.pl"
+        />
+        <label for="contentInput" class="form__label">Treść:</label>
+        <textarea
+          name=""
+          id="contentInput"
+          class="form__textarea form__input"
+          rows="12"
+          placeholder="Tutaj proszę wpisać treść wiadomości"
+        ></textarea>
+        <button type="submit" class="form__button">Wyślij</button>
       </form>
     </main>
     <footer class="footer">
