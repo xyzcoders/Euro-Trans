@@ -45,12 +45,29 @@
   margin: 0 auto;
 }
 
+.submain__heading--red::after {
+  content: "";
+  background-color: #FF8383;
+  height: 7px;
+  width: 200px;
+  display: block;
+  border-radius: 17px;
+  margin: 0 auto;
+}
+
 .submain__paragraph {
   font-family: "Lato", sans-serif;
   font-size: 30px;
   width: 50%;
   text-align: justify;
   line-height: 160%;
+}
+
+.submain__paragraph--center {
+  margin: 20px 0;
+  text-align: center;
+  line-height: 170%;
+  width: 40%;
 }
 
 .submain__list {
@@ -65,6 +82,12 @@
   margin: 20px 0;
 }
 
+.submain__photo {
+  margin: 30px;
+  -webkit-box-shadow: 0px 7px 37px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 7px 37px 1px rgba(0, 0, 0, 0.25);
+}
+
 .map__country {
   cursor: pointer;
 }
@@ -72,5 +95,15 @@
 .map__country:hover {
   stroke: #ff4242;
   stroke-width: 5px;
+}
+
+.table {
+  width: 50%;
+}
+
+.table__caption {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 65px;
 }
 /*# sourceMappingURL=submain.css.map */

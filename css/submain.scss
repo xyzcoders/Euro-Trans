@@ -28,6 +28,15 @@
       border-radius: 17px;
       margin: 0 auto;
     }
+    &--red::after {
+        content: "";
+        background-color: #FF8383;
+        height: 7px;
+        width: 200px;
+        display: block;
+        border-radius: 17px;
+        margin: 0 auto;
+      }
   }
   &__paragraph {
     font-family: "Lato", sans-serif;
@@ -35,6 +44,12 @@
     width: 50%;
     text-align: justify;
     line-height: 160%;
+    &--center{
+        margin: 20px 0;
+        text-align: center;
+        line-height: 170%;
+        width: 40%;
+    }
   }
   &__list {
     font-family: "Lato", sans-serif;
@@ -46,6 +61,10 @@
   &__breakline {
     margin: 20px 0;
   }
+  &__photo{
+      margin: 30px;
+      box-shadow: 0px 7px 37px 1px rgba(0, 0, 0, 0.25);
+  }
 }
 .map {
   &__country {
@@ -55,4 +74,12 @@
       stroke-width: 5px;
     }
   }
+}
+.table{
+    width: 50%;
+    &__caption{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 65px;
+    }
 }
