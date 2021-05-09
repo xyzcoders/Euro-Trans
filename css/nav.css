@@ -19,7 +19,6 @@
 }
 
 .nav__logo {
-  opacity: 0;
   -webkit-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
 }

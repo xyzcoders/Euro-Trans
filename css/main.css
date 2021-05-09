@@ -100,9 +100,9 @@
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  padding: 10px 20px;
+  padding: 13px 23px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 32px;
 }
 
 .main__readmore--black {
@@ -136,22 +136,6 @@
           align-items: center;
 }
 
-.main__section--right {
-  padding-right: 50px;
-  text-align: justify;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.main__section--left {
-  padding-left: 50px;
-  text-align: left;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
 .main__road {
   background: linear-gradient(269.97deg, #000000 40.63%, rgba(0, 0, 0, 0) 87.5%), url(../imgs/trasybg.png);
 }
@@ -162,6 +146,19 @@
 
 .main__vehicles {
   background: linear-gradient(269.7deg, #C0947E 41.36%, rgba(0, 0, 0, 0) 87.37%), url(../imgs/pojazdybg.png);
+}
+
+.main__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .landing__text {
@@ -181,14 +178,34 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: justify;
+  width: 100%;
   gap: 20px;
+}
+
+.section__content--right {
+  padding-right: 50px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.section__content--left {
+  padding-left: 50px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .section__heading {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
-  font-size: 96px;
+  font-size: 110px;
   color: white;
+}
+
+.section__heading--black {
+  color: black;
 }
 
 .section__text {
