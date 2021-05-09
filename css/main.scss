@@ -22,33 +22,53 @@
         font-family: 'Titillium Web', sans-serif;
         font-weight: bold;
         border-radius: 40px;
+        width: max-content;
         padding: 10px 20px;
         text-decoration: none;
         font-size: 25px;
-        transition: transform 0.1s linear;
         &--black{
             background-color: black;
             color: white;
+            &:hover{
+                color: rgb(228, 228, 228);
+            }
         }
         &--white{
             background-color:white;
             color:black;
+            &:hover{
+                color: rgb(88, 88, 88);
+            }
         }
+
     }
     &__section{
         width: 100%;
         height: 840px;
         background-size: cover;
         background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        &--right{
+            padding-right: 50px;
+            text-align: justify;
+            justify-content: flex-end;
+        }
+        &--left{
+            padding-left: 50px;
+            text-align: left;
+            justify-content: flex-start;
+        }
     }
     &__road{
-        background-image: url(../imgs/trasybg.png);
+        background: linear-gradient(269.97deg, #000000 40.63%, rgba(0, 0, 0, 0) 87.5%), 
+        url(../imgs/trasybg.png);
     }
     &__priceList{
-        background-image: url(../imgs/cennikbg.png);
-    }
+        background: linear-gradient(269.93deg, rgba(0, 0, 0, 0) 11.58%, rgba(1, 35, 85, 0) 11.58%, rgba(1, 35, 85, 0) 11.59%, #04318E 57.09%), url(../imgs/cennikbg.png);    }
     &__vehicles{
-        background-image: url(../imgs/pojazdybg.png);
+        background: linear-gradient(269.7deg, #C0947E 41.36%, rgba(0, 0, 0, 0) 87.37%), 
+        url(../imgs/pojazdybg.png);
     }
 }
 .landing{
@@ -58,5 +78,25 @@
         line-height: 170%;
         z-index: 2;
         transform: translateY(-40px)
+    }
+}
+.section{
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__heading{
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 700;
+        font-size: 96px;
+        color: white;
+    }
+    &__text{
+        width: 50%;
+        line-height: 180%;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-size: 34px;
     }
 }
