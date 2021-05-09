@@ -1,8 +1,11 @@
 window.onscroll = () => {
     const navLogo  = document.querySelector(".nav__logo");
-    if ( document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    const nav = document.querySelector(".nav");
+    if ( document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       navLogo.style.opacity = "1";
+      nav.style.background = "#ffffff";
     } else {
       navLogo.style.opacity = "0";
+      nav.style.background = "transparent";
     }
   };

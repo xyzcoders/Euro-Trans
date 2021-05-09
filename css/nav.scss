@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .nav{
     font-family: 'Montserrat', sans-serif;
     display: flex;
@@ -7,6 +6,9 @@
     padding: 5px 5%;
     width: 100%;
     position: fixed;
+    z-index: 100;
+    background: transparent;
+    transition: background 0.1s linear;
     &__logo{
         opacity: 0;
         transition: opacity 0.2s linear;
