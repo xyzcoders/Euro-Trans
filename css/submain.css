@@ -83,6 +83,10 @@
   width: 45%;
 }
 
+.submain__listItem--ordered {
+  margin: 20px 0;
+}
+
 .submain__breakline {
   margin: 20px 0;
 }

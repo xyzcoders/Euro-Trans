@@ -62,6 +62,11 @@
     line-height: 160%;
     width: 45%;
   }
+  &__listItem{
+      &--ordered{
+          margin: 20px 0;
+      }
+  }
   &__breakline {
     margin: 20px 0;
   }
