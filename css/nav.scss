@@ -16,6 +16,20 @@
         text-decoration: none;
         color: black;
         font-size: 25px;
+        transition: border 0.1s linear, color 0.2s ease-in ;
+    }
+    &__item::after{
+        content: '';
+        width: 0%;
+        background-color: black;
+        height: 2px;
+        margin: 2px;
+        border-radius: 20px;
+        display: block;
+        transition: width 0.1s linear;
+    }
+    &__item:hover::after{
+        width: 100%;
     }
     &__logo{
         width: 11em;
