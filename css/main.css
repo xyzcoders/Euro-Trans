@@ -19,7 +19,6 @@
 }
 
 .nav__logo {
-  opacity: 0;
   -webkit-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
 }
@@ -149,6 +148,10 @@
 }
 
 .main__contact {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,6 +162,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 40px;
 }
 
 .landing__text {
@@ -214,5 +218,14 @@
   color: white;
   font-family: 'Lato', sans-serif;
   font-size: 34px;
+}
+
+.section__text--center {
+  text-align: center;
+  color: black;
+}
+
+.section__text--black {
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */

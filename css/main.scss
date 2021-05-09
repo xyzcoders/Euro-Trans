@@ -62,9 +62,12 @@
         url(../imgs/pojazdybg.png);
     }
     &__contact{
+        height: max-content;
+        padding-bottom: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 40px;
     }
 }
 .landing{
@@ -107,5 +110,12 @@
         color: white;
         font-family: 'Lato', sans-serif;
         font-size: 34px;
+        &--center{
+            text-align:center ;
+            color: black;
+        }
+        &--black{
+            color: black;
+        }
     }
 }
