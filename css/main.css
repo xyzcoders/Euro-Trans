@@ -137,15 +137,15 @@
 }
 
 .main__road {
-  background: linear-gradient(269.97deg, #000000 40.63%, rgba(0, 0, 0, 0) 87.5%), url(../imgs/trasybg.png);
+  background: linear-gradient(269.97deg, #000000 40.63%, rgba(0, 0, 0, 0) 87.5%), url(../imgs/trasybg.webp);
 }
 
 .main__priceList {
-  background: linear-gradient(269.93deg, rgba(0, 0, 0, 0) 11.58%, rgba(1, 35, 85, 0) 11.58%, rgba(1, 35, 85, 0) 11.59%, #04318E 57.09%), url(../imgs/cennikbg.png);
+  background: linear-gradient(269.93deg, rgba(0, 0, 0, 0) 11.58%, rgba(1, 35, 85, 0) 11.58%, rgba(1, 35, 85, 0) 11.59%, #04318E 57.09%), url(../imgs/cennikbg.webp);
 }
 
 .main__vehicles {
-  background: linear-gradient(269.7deg, #C0947E 41.36%, rgba(0, 0, 0, 0) 87.37%), url(../imgs/pojazdybg.png);
+  background: linear-gradient(269.7deg, #C0947E 41.36%, rgba(0, 0, 0, 0) 87.37%), url(../imgs/pojazdybg.webp);
 }
 
 .main__contact {
