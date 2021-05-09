@@ -5,6 +5,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px 5%;
+    width: 100%;
+    position: fixed;
+    &__logo{
+        opacity: 0;
+        transition: opacity 0.2s linear;
+    }
     &__list{
         display: flex;
         align-items: center;
@@ -16,7 +22,10 @@
         text-decoration: none;
         color: black;
         font-size: 25px;
-        transition: border 0.1s linear, color 0.2s ease-in ;
+        transition: color 0.1s ease-in ;
+    }
+    &__item:hover{
+        color: rgb(73, 73, 73);
     }
     &__item::after{
         content: '';

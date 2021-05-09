@@ -11,6 +11,14 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 5px 5%;
+  width: 100%;
+  position: fixed;
+}
+
+.nav__logo {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
 }
 
 .nav__list {
@@ -29,8 +37,12 @@
   text-decoration: none;
   color: black;
   font-size: 25px;
-  -webkit-transition: border 0.1s linear, color 0.2s ease-in;
-  transition: border 0.1s linear, color 0.2s ease-in;
+  -webkit-transition: color 0.1s ease-in;
+  transition: color 0.1s ease-in;
+}
+
+.nav__item:hover {
+  color: #494949;
 }
 
 .nav__item::after {

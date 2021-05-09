@@ -10,7 +10,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 5%;
+  padding: 5px 5%;
+  position: fixed;
+}
+
+.nav__logo {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
 }
 
 .nav__list {
@@ -21,13 +28,40 @@
       -ms-flex-align: center;
           align-items: center;
   list-style-type: none;
-  gap: 60px;
+  gap: 80px;
+  padding: 20px 0;
 }
 
 .nav__item {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 25px;
+  -webkit-transition: color 0.1s ease-in;
+  transition: color 0.1s ease-in;
+}
+
+.nav__item:hover {
+  color: #494949;
+}
+
+.nav__item::after {
+  content: '';
+  width: 0%;
+  background-color: black;
+  height: 2px;
+  margin: 2px;
+  border-radius: 20px;
+  display: block;
+  -webkit-transition: width 0.1s linear;
+  transition: width 0.1s linear;
+}
+
+.nav__item:hover::after {
+  width: 100%;
+}
+
+.nav__logo {
+  width: 11em;
 }
 
 * {
